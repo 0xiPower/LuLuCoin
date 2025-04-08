@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Ubuntu",
+	"name": "LuLuCoin-FullDev",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"runArgs": ["--network", "host", "--dns=8.8.8.8", "--dns=114.114.114.114"],
@@ -9,6 +9,32 @@
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/rust:1": {},
 		"ghcr.io/devcontainers-extra/features/nestjs-cli:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"PKief.material-icon-theme",
+				"usernamehw.errorlens",
+				"wayou.vscode-todo-highlight",
+				"oderwat.indent-rainbow",
+				"esbenp.prettier-vscode",
+				"christian-kohler.path-intellisense",
+				"robertz.code-snapshot",
+				"johnpapa.vscode-peacock",
+				"streetsidesoftware.code-spell-checker",
+				"yzhang.markdown-all-in-one",
+				"NomicFoundation.hardhat-solidity",
+				"JuanBlanco.solidity",
+				"naps62.foundry-vscode-test-adapter",
+				"tamasfe.even-better-toml",
+				"formulahendry.auto-rename-tag",
+				"dbaeumer.vscode-eslint",
+				"bradlc.vscode-tailwindcss",
+				"pranaygp.vscode-css-peek",
+				"ritwickdey.LiveServer",
+				"rettimo.nextjs-vscode-snippets"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
