@@ -8,7 +8,7 @@ import LuLuCoin from "../LuLuCoin.json";
 // 导出默认组件 MintERC20，用于实现 ERC20 代币的铸造功能
 export default function MintERC20({ accounts }) {
   // 定义智能合约的部署地址
-  const ContractAddress = "0x663F3ad617193148711d28f5334eE4Ed07016602";
+  const ContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
   // 使用 useState 钩子定义 balance（用户余额）和 mintAmount（用户希望铸造的代币数量）的状态
   const [balance, setBalance] = useState(null); // 初始余额为空
