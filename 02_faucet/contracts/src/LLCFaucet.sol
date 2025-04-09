@@ -24,12 +24,7 @@ contract LLCFaucet is Ownable {
     event LLCFaucet__Drip(address indexed Receiver, uint256 indexed Amount);
     event LLCFaucet__OwnerDeposit(uint256 indexed amount);
 
-    constructor(
-        address _tokenAddress,
-        uint256 _dripInterval,
-        uint256 _dripLimit,
-        address _owner
-    ) Ownable(_owner) {
+    constructor(address _tokenAddress, uint256 _dripInterval, uint256 _dripLimit, address _owner) Ownable(_owner) {
         tokenAddress = _tokenAddress;
         dripInterval = _dripInterval;
         dripLimit = _dripLimit;
@@ -72,7 +67,7 @@ contract LLCFaucet is Ownable {
         tokenAddress = _newTokenAddress;
     }
 
-    function getDripINterval() external view returns (uint256) {
+    function getDripInterval() external view returns (uint256) {
         return dripInterval;
     }
 
