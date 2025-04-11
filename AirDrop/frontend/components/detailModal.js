@@ -102,7 +102,7 @@ export default function DetailModal() {
                         当前账户代币余额:
                       </span>
                       <p className="break-words  mt-2">
-                        {detailData.balance} ETH
+                        {detailData.balance} LLC
                       </p>
                     </div>
                     <div>

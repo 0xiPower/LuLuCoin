@@ -113,7 +113,7 @@ export default function GenerateMerkleProof() {
                     />
                     <input
                       type="number"
-                      placeholder="数量 (ETH)"
+                      placeholder="数量 (LLC)"
                       className="w-full px-4 py-2 bg-blue-900/30 border-2 border-blue-600 rounded-lg
                         text-white placeholder-blue-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500
                         transition-all duration-300"
@@ -211,7 +211,7 @@ export default function GenerateMerkleProof() {
                           </div>
                           <div>
                             <span className="text-blue-400">数量:</span>
-                            <span className="block">{item.amount} ETH</span>
+                            <span className="block">{item.amount} LLC</span>
                           </div>
                         </div>
                         <div>
