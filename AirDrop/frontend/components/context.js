@@ -1,7 +1,9 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { ethers } from "ethers";
-import LLCAirDropABI from "../../contracts/out/LLCAirDrop.sol/LLCAirDrop.json";
-import LuLuCoinABI from "../../contracts/out/LuLuCoin.sol/LuLuCoin.json";
+// import LLCAirDropABI from "../../contracts/out/LLCAirDrop.sol/LLCAirDrop.json";
+// import LuLuCoinABI from "../../contracts/out/LuLuCoin.sol/LuLuCoin.json";
+import LLCAirDropABI from "../LLCAirDrop.json";
+import LuLuCoinABI from "../LuLuCoin.json";
 
 const ContractContext = createContext();
 
